@@ -5,45 +5,32 @@ main {
   border-radius: 18px;
   margin: 0 18px;
 }
-
-.img-ct {
+main div.img-ct {
   display: flex;
   width: 100%;
   height: 286px;
 }
-
-img {
+main div.img-ct img {
   object-fit: cover;
   display: block;
   width: 100%;
   border-radius: 12px;
 }
-
-article {
+main article {
   display: flex;
   flex-direction: column;
+  margin: 22px 0 22px 0;
   row-gap: 18px;
   padding: 0 8px;
-}
-
-article {
-  margin: 22px 0 22px 0;
-}
-
-article h1,
-p {
   text-align: center;
-  line-height: 19px;
 }
-
-main h1 {
+main article h1 {
   color: var(--Dark-blue);
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
 }
-
-main p {
+main article p {
   color: var(--Grayish-blue);
 }
 

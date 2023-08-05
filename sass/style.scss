@@ -4,55 +4,45 @@ main{
     background-color: white;
     border-radius: 18px;
     margin: 0 18px;
-}
 
-.img-ct{
-    display: flex;
-    width: 100%;
-    height: 286px;
-}
+    div.img-ct{
+        display: flex;
+        width: 100%;
+        height: 286px;
 
-img{
-    object-fit: cover;
-    display: block;
-    width: 100%;
-    border-radius: 12px;
-    
-}
+        img{
+            object-fit: cover;
+            display: block;
+            width: 100%;
+            border-radius: 12px;
+            
+        }
+    }
 
-article {
-    display: flex;
-    flex-direction: column;
-    row-gap: 18px;
-    padding: 0 8px;
-}
+    article {
+        display: flex;
+        flex-direction: column;
+        margin: 22px 0 22px 0;
+        row-gap: 18px;
+        padding: 0 8px;
+        text-align: center;
 
-article {
-    margin: 22px 0 22px 0;
-}
+        h1{
+            color: var(--Dark-blue);
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+        p{
+            color: var(--Grayish-blue);
+        }
+    }
 
-article
-h1,
-p {
-    text-align: center;
-    line-height: 19px;
 }
-
-main h1{
-    color: var(--Dark-blue);
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
-}
-
-main p {
-    color: var(--Grayish-blue);
-}
-
 #water-mark {
     position: absolute;
     bottom: 12px;
-
-    
 }
+
+
 

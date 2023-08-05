@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-:root{
-    --Light-blue: #D6E2F0;
-    --Grayish-blue: #7B879D;
-    --Dark-blue: #1F3251;
-}
+$light-blue: #D6E2F0;
+$grayish-blue: #7B879D;
+$dark-blue: #1F3251;
 
 *{
     box-sizing: border-box;
@@ -22,21 +20,14 @@ body{
     font-weight: 400;
     width: 100vw;
     height: 100vh;
-    background-color: var(--Light-blue);
-    overflow: hidden;
+    background-color: $light-blue;
 }
 
 a{
     text-decoration: none;
-    color: var(--Dark-blue);
-}
+    color: $dark-blue;
 
-a:hover{
-    color: black;
-}
-
-@media (max-width: 500px) {
-    a:link{
+    &:link{
         color: black;
     }
 }
